@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detail Bawal - Nelayanku</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #007bff;
+      color: white;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      background-color: #0056b3;
+      padding: 15px;
+    }
+
+    .header h2 {
+      flex: 1;
+      text-align: center;
+      margin: 0;
+    }
+
+    .back-button {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      margin-right: auto;
+      text-decoration: none;
+    }
+
+    .product-detail {
+      background-color: #007bff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .product-detail img {
+      width: 200px;
+      margin-bottom: 10px;
+    }
+
+    .product-detail h3 {
+      margin: 10px 0;
+    }
+
+    .product-detail p {
+      font-size: 14px;
+      margin: 0 20px 20px 20px;
+      line-height: 1.5;
+    }
+
+    .action-buttons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      margin: 0 auto 80px auto;
+      width: 90%;
+    }
+
+    .action-buttons a {
+      text-decoration: none;
+    }
+
+    .action-buttons img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    .buy-button {
+      background-color: #fff;
+      color: #007bff;
+      padding: 10px 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .bottom-nav a {
+      text-decoration: none;
+    }
+
+    .bottom-nav img {
+      width: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="home.html" class="back-button">←</a>
+    <h2>Detail Ikan</h2>
+  </header>
+
+  <main class="product-detail">
+    <img src="images/bawalikan.jpg" alt="Bawal" />
+    <h3>Rp. 60.000 / 1 KG</h3>
+    <p>
+      Ikan bawal adalah ikan laut pelagis besar yang terkenal karena dagingnya yang lezat dan kandungan gizinya yang tinggi. Ikan ini memiliki tubuh pipih. Ikan bawal juga memiliki kemampuan berenang cepat dan sering bermigrasi dalam jarak jauh.
+    </p>
+
+    <div class="action-buttons">
+      <a href="keranjang.html"><img src="images/keranjang.png" alt="Keranjang" /></a>
+      <a href="keranjang.html"><button class="buy-button">Beli Sekarang</button></a>
+      <a href="pesan.html"><img src="images/chat.jpg" alt="Chat" /></a>
+    </div>
+  </main>
+
+  <footer class="bottom-nav">
+    <a href="home.html"><img src="images/home.png" alt="Home"></a>
+    <a href="keranjang.html"><img src="images/keranjang.png" alt="Keranjang"></a>
+    <a href="profile.html"><img src="images/profile.png" alt="Profile"></a>
+  </footer>
+
+</body>
+</html>
